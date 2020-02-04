@@ -1,50 +1,57 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6__box_contents{
+.q6__box_contents {
 	text-align: center;
 }
 
-.q6__box_contents_text{
+.is-text-align .q6__box_contents_text {
 	width: 90px;
 	padding: 10px 0;
 	background-color: #e6f2ff;
-	/*display: inline-block;*/
+	display: inline-block;
+}
+
+.is-margin .q6__box_contents_text {
+	width: 90px;
+	padding: 10px 0;
+	background-color: #e6f2ff;
 	text-align: center;
 	margin: 0 auto;
 }
 
-
-
-
-.q6_text{
+.q6_text {
 	display: inline-block;
 	padding: 10px;
 	background-color: #fff;
 	box-sizing: border-box;
 }
 
-.is_table{
+.is_table {
 	display: table;
 }
 
-.q6_box_table{
+.q6_box_table {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.is-flex{
+.is-flex {
 	display: flex;
 	align-items:center;
 	justify-content:center;
 }
 
-.q6__box{
+.is-stable {
 	position: relative;
 }
 
-.is-stable .q6__box__inner{
+.is-flexible {
+	position: relative;
+}
+
+.is-stable .q6_box_text {
 	position: absolute;
     top: 0;
     right: 0;
@@ -53,7 +60,7 @@
     margin: auto;
 }
 
-.is-flexible .q6__box__inner{
+.is-flexible .q6_box_text {
 	position: absolute;
 	top: 50%;
 	left: 50%;

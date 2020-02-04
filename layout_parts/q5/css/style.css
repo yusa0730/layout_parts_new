@@ -1,7 +1,17 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5{
+.is-common {
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+.q5 {
 	width: 500px;
 	height:  500px;
 	background-color: #ECF1F2;
@@ -9,7 +19,7 @@
 	position: relative;
 }
 
-.q5_contents_1{
+.q5_contents_1 {
 	background-color: #ffefd3;
 	margin-left: 200px;
 	margin-top: 40px;
@@ -18,19 +28,19 @@
 	z-index: 1;
 }
 
-.q5_contents_2{
+.q5_contents_2 {
 	background-color: #7084de;
 	right: 120px;
 	top: 120px;
 	z-index: 2;
 }
-.q5_contents_3{
+.q5_contents_3 {
 	background-color: #d0ecea;
 	z-index: 3;
 	right: 40px;
 	top: 200px;
 }
-.q5_contents_4{
+.q5_contents_4 {
 	background-color: #8b7a5e;
 	z-index: 4;
 	right: 120px;
@@ -86,15 +96,6 @@
 	height: 100px;
 }
 
-.is-common{
-	position: absolute;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 100px;
-	text-align: center;
-	width: 100px;
-	height: 100px;
-}
 
 
 /* 回答はここに書いてね */

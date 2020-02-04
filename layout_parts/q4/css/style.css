@@ -15,7 +15,14 @@
 	display: table;
 	width: 100%;
 	margin:0 auto;
-	margin-top: 30px;
+	margin-top: 20px;
+}
+
+.is-common{
+	padding: 20px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
 
 /*display: table 要素を横並びで配置する方法*/
@@ -24,38 +31,31 @@
 子要素の縦幅を均一に揃えてくれて、子要素にvertical-align: middle;を指定すれば、上下中央に揃えることが可能。
 ulにtable-layout:fixedを指定すれば、小要素の幅を均等にする事も可能。*/
 
-.q4_contents_1{
+.q4_contents_pink{
 	background-color: #fbc8b8;
 	width: 100px;
 }
 
-.q4_contents_2{
+.q4_contents_purple{
 	background-color: #e0abd9;
 }
 
-.q4_contents_3{
+.q4_contents_blue{
 	background-color: #b6d8ed;
 	width: 100px;
 }
 
-.q4_contents_4{
+.q4_contents_yellow{
 	background-color: #e5d32e;
 }
 
-.q4_contents_5{
+.q4_contents_red{
 	background-color: #ec8f9a;
 }
 
-.q4_contents_6{
+.q4_contents_green{
 	background-color: #8fdcad;
 	width: 500px;
-}
-
-.is-common{
-	padding: 20px;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
 }
 
 
