@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q4{
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #ECF1F2;
+}
+
+.q4_contents:first-child{
+	margin-top: 0;
+}
+
+.q4_contents{
+	display: table;
+	width: 100%;
+	margin:0 auto;
+	margin-top: 30px;
+}
+
+/*display: table 要素を横並びで配置する方法*/
+
+/*table-cellは親要素に横幅を指定して、margin: 0 auto;と指定すれば、左右中央に設置することが可能。
+子要素の縦幅を均一に揃えてくれて、子要素にvertical-align: middle;を指定すれば、上下中央に揃えることが可能。
+ulにtable-layout:fixedを指定すれば、小要素の幅を均等にする事も可能。*/
+
+.q4_contents_1{
+	background-color: #fbc8b8;
+	width: 100px;
+}
+
+.q4_contents_2{
+	background-color: #e0abd9;
+}
+
+.q4_contents_3{
+	background-color: #b6d8ed;
+	width: 100px;
+}
+
+.q4_contents_4{
+	background-color: #e5d32e;
+}
+
+.q4_contents_5{
+	background-color: #ec8f9a;
+}
+
+.q4_contents_6{
+	background-color: #8fdcad;
+	width: 500px;
+}
+
+.is-common{
+	padding: 20px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
 
 /* 回答はここに書いてね */
