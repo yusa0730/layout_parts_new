@@ -2,4 +2,34 @@
 
 /* 回答はここに書いてね */
 
+.baloon {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 5px solid #222;
+    border-radius: 30px;
+}
+
+.baloon:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    content: "";
+    bottom: -38px;
+    left: 30px;
+    border-top-color: #fff;
+}
+
+.baloon:before {
+	position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    content: "";
+    bottom: -45px;
+    left: 30px;
+    border-top-color: #222;
+}
 /* 回答はここに書いてね */
